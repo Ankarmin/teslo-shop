@@ -13,7 +13,7 @@ export class Product {
   @Column('numeric', {
     default: 0,
   })
-  price!: number;
+  price?: number;
 
   @Column({
     type: 'text',
